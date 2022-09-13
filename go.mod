@@ -14,7 +14,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/route53domains v1.12.12
 	github.com/aws/aws-sdk-go-v2/service/transcribe v1.21.4
 	github.com/beevik/etree v1.1.0
-	github.com/google/go-cmp v0.5.8
+	github.com/google/go-cmp v0.5.9
 	github.com/hashicorp/aws-cloudformation-resource-schema-sdk-go v0.18.0
 	github.com/hashicorp/aws-sdk-go-base/v2 v2.0.0-beta.16
 	github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2 v2.0.0-beta.17
@@ -24,7 +24,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-version v1.6.0
 	github.com/hashicorp/hcl/v2 v2.13.0
-	github.com/hashicorp/terraform-plugin-framework v0.11.1
+	github.com/hashicorp/terraform-plugin-framework v0.12.0
 	github.com/hashicorp/terraform-plugin-go v0.14.0
 	github.com/hashicorp/terraform-plugin-log v0.7.0
 	github.com/hashicorp/terraform-plugin-mux v0.7.0
