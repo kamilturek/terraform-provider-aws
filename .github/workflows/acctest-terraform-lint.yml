@@ -21,7 +21,7 @@ jobs:
   terrafmt:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.1.0
       - uses: actions/setup-go@v3
         with:
           go-version-file: .go-version
@@ -43,7 +43,7 @@ jobs:
     name: Validate Init
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.1.0
       - uses: actions/setup-go@v3
         with:
           go-version-file: .go-version
@@ -68,7 +68,7 @@ jobs:
     needs: [validate-init]
     runs-on: [custom, linux, medium]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.1.0
       - uses: actions/setup-go@v3
         with:
           go-version-file: .go-version
@@ -101,7 +101,7 @@ jobs:
     needs: [validate-init]
     runs-on: [custom, linux, medium]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.1.0
       - uses: actions/setup-go@v3
         with:
           go-version-file: .go-version
