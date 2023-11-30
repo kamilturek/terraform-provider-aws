@@ -231,7 +231,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Add comment to add helpful context for new contributors'
-        uses: actions/first-interaction@1d8459ca65b335265f1285568221e229d45a995e # v1.1.1
+        uses: actions/first-interaction@34f15e814fe48ac9312ccf29db4e74fa767cbab7 # v1.3.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |-
